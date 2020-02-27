@@ -25,12 +25,17 @@ By creating a linear regression that took Senator Warren's spending on an ad and
 6. We now want to know how many other ads ran in the same month.  We first create a new column with just the month of the start date by using the formula =MONTH(Startdate cell)
 7. We then use a countif formula to count how many other cells have the same month of start date.
 8. We now create a pivot table to get the AdID, Spend, Number of Days Ran, Number of impressions and Number of Ads ran in same month formatted in a table. AdID is the row and the others are the values.
-9. Use the Data Analysis toolpack to generate the multiple regression.  Make sure the Number of impressions is in the leftmost column
+9. Use the Data Analysis toolpack to generate the multiple regression.  Make sure the Number of impressions is in the leftmost column and that the other columns (all except adID and number of impression) are selected as x-values (be sure to leave out the grand total row).  Then the number of impressions should be the y-value.  The proper multiple regression should be generated
+10. To generate the single regression we copy paste the spend column and number of impressions column to a new spreadsheet and insert a scatterplot with a trendline.  Be sure to select that the equation and R-Squared value appear on the chart.
 
 ## Link to Excel Spreadsheet
 
-## Link to 
-3. 
+
+
+## Link to Snapchat Data
+
+https://www.snap.com/en-US/political-ads/
+
 
 
 
