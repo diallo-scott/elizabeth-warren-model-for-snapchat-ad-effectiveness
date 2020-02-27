@@ -12,6 +12,9 @@ Number of impressions = 449.97 (Number of days ad ran) + 104.01 (Amount spent on
 I was able to determine that my model was an accurate representation of reality by oberserving several values, including the R-squared, P-values, and F significance. The high value of R-squared, 0.997, tells us that our model can explain 99.7% of the data.  The low P-values (all of them are less than 0.0001) tell us that each of our independent variables are all related to the predicted output, and are each meaningful additions to our model.  Finally the extremely low value of F significance tells us that the joint effect of the three independent variables correlates very strongly with our output.
  
 ## Simple Linear Regression Model
+By creating a linear regression that took Senator Warren's spending on an ad and output the number of impressions, I hoped to see if there was a strong relationship between dollars spend and impressions gained.  The R-Squared value of 0.691, however, tells us that only 69% of the data could be explained by our model.  Thus we can see that there are other factors, besides spending on an advertisement, which contribute to the impressions it receives.  The chart depicting this regression is below.
+
+![chartimage](link)
 
 
 
