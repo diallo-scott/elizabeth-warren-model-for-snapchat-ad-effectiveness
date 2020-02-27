@@ -14,7 +14,7 @@ I was able to determine that my model was an accurate representation of reality 
 ## Simple Linear Regression Model
 By creating a linear regression that took Senator Warren's spending on an ad and output the number of impressions, I hoped to see if there was a strong relationship between dollars spend and impressions gained.  The R-Squared value of 0.691, however, tells us that only 69% of the data could be explained by our model.  Thus we can see that there are other factors, besides spending on an advertisement, which contribute to the impressions it receives.  The chart depicting this regression is below.
 
-![chartimage](link)
+![chartimage](https://github.com/diallo-scott/elizabeth-warren-model-for-snapchat-ad-effectiveness/blob/master/Simple%20Linear%20Regression.png)
 
 
 
