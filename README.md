@@ -16,6 +16,22 @@ By creating a linear regression that took Senator Warren's spending on an ad and
 
 ![chartimage](https://github.com/diallo-scott/elizabeth-warren-model-for-snapchat-ad-effectiveness/blob/master/Simple%20Linear%20Regression.png)
 
+## Step-by-step Data Manipulation
+1. Apply filters columns of data
+2. Filter the "PayingAdvertiserName" column to just include "Warren for President"
+3. We now have just the ads paid for by Senator Warren and we copy it to a new tab "Warren Filtered Data"
+4. We need to use text to columns to eliminate the extra characters behind Start and End dates.  We will use a space as the delimiter and choose to not import the column with the undesired information.
+5. To generate the days from start to finish use the formula: =(Startdate - Enddate)
+6. We now want to know how many other ads ran in the same month.  We first create a new column with just the month of the start date by using the formula =MONTH(Startdate cell)
+7. We then use a countif formula to count how many other cells have the same month of start date.
+8. We now create a pivot table to get the AdID, Spend, Number of Days Ran, Number of impressions and Number of Ads ran in same month formatted in a table. AdID is the row and the others are the values.
+9. Use the Data Analysis toolpack to generate the multiple regression.  Make sure the Number of impressions is in the leftmost column
+
+## Link to Excel Spreadsheet
+
+## Link to 
+3. 
+
 
 
 
