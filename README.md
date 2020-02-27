@@ -30,7 +30,7 @@ By creating a linear regression that took Senator Warren's spending on an ad and
 
 ## Link to Excel Spreadsheet
 
-
+https://github.com/diallo-scott/elizabeth-warren-model-for-snapchat-ad-effectiveness/blob/master/PoliticalAds.xlsx
 
 ## Link to Snapchat Data
 
